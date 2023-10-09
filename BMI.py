@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 #title of the app
 st.title('BMI CALCULATOR')
-image = Image.open('C:\\Users\\Amarachi Uzochukwu\\Downloads\\pexels-john-guccione-wwwadvergroupcom-3483098.jpg')
+image = Image.open('pexels-john-guccione-wwwadvergroupcom-3483098.jpg')
 st.image(image, width= 350)
 #taking weight in kg
 weight = st.number_input('enter your weight in kg ')
